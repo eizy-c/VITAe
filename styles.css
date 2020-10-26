@@ -1,0 +1,137 @@
+/* --------------- MODE DARK---------------- */
+body.dark {
+  background: #101623;
+}
+body.dark .preloader-inner {
+    background: #101623;
+}
+body.dark .js-preloader {
+    background-color: #101623;
+}
+
+body.dark .preloader-inner .dot {
+    background: #fff;
+}
+body.dark .preloader-inner .dots span {
+    background: #fff;
+}
+body.dark #features .info-item {
+  background-color: #222b40;
+}
+
+body.dark .section-heading h2 {
+  color: #b3d7ff;
+}
+body.dark p {
+  color: #8b9aab;
+}
+body.dark #features .info-item h4 {
+  color: #92c5ff;
+}
+body.dark #features .info-item .social-icons i {
+  color: #fff;
+}
+body.dark #features .info-item .social-icons i:hover {
+  color: #0b74bf;
+}
+body.dark .header-area {
+    background: #222b40;
+}
+body.dark .background-header {
+    background: #222b40 !important;
+}
+body.dark .main-nav .nav li a {
+    color: #add4ff !important;
+}
+body.dark .background-header .logo,
+.background-header .main-nav .nav li a {
+    color: #b3d7ff !important;
+}
+body.dark .feature-item .right-content h4 {
+    color: #add0f7;
+}
+body.dark #tabs ul li a {
+    background-color: #222b40;
+    color: #b3d7ff;
+}
+body.dark #referencias .trainer-item {
+    background-color: #222b40;
+}
+body.dark #referencias .trainer-item h4 {
+    color: #92c5ff;
+}
+body.dark #referencia-icon {
+    display: none;
+}
+
+body.dark #referencia-icon-blue {
+  filter: grayscale(0);
+}
+#referencia-icon-blue {
+  filter: grayscale(100%);
+}
+
+body.dark #contact-us .contact-form {
+  background:#222b40;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+body.dark .skills .progress .skill {
+  color: #8b9aab;
+}
+body.dark .skills .progress-bar-wrap {
+  background: #dfeaff;
+}
+
+body.dark .card{
+ background-color: #222b40;
+}
+body.dark .card-title {
+    color: #add0f7;
+}
+body.dark .card a {
+    color: #0b74bf;
+}
+/*-------------   switch mode dark ----------------*/
+.switch-bar {
+  position: fixed;
+  right: 0;
+  top: 15%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.fa {
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+  border-radius: 1rem 0 0 1rem;
+}
+
+body.dark .fa-sun {
+  display: block;
+}
+body.dark .fa-moon {
+  display: none;
+}
+
+.fa-sun {
+  display: none;
+  background: #b3d7ff;
+}
+.fa-moon {
+  background: #1b2440;
+}
+
+.fa:hover {
+  padding-right: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
