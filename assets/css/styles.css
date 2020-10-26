@@ -84,7 +84,15 @@ body.dark .skills .progress-bar-wrap {
   background: #dfeaff;
 }
 
-
+body.dark .card{
+ background-color: #222b40;
+}
+body.dark .card-title {
+    color: #add0f7;
+}
+body.dark .card a {
+    color: #0b74bf;
+}
 /*-------------   switch mode dark ----------------*/
 .switch-bar {
   position: fixed;
