@@ -77,6 +77,13 @@ body.dark #contact-us .contact-form {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
 }
 
+body.dark .skills .progress .skill {
+  color: #8b9aab;
+}
+body.dark .skills .progress-bar-wrap {
+  background: #dfeaff;
+}
+
 
 /*-------------   switch mode dark ----------------*/
 .switch-bar {
