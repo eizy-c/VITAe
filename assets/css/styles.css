@@ -84,7 +84,7 @@ body.dark .skills .progress-bar-wrap {
   background: #dfeaff;
 }
 
-body.dark .card{
+body.dark .card-curso{
  background-color: #222b40;
 }
 body.dark .card-title {
@@ -92,6 +92,15 @@ body.dark .card-title {
 }
 body.dark .card a {
     color: #0b74bf;
+}
+body.dark .logo img{
+  filter: invert(100%);
+}
+body.dark .overlay{
+  background-color: #b3d7ff;
+}
+body.dark .text-overlay a{
+  color: #071935;
 }
 /*-------------   switch mode dark ----------------*/
 .switch-bar {

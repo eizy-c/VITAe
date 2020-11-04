@@ -826,10 +826,6 @@ Habilidades
 --------------------------------------------
 */
 
-#habilidades {
-  margin-bottom: 140px;
-
-}
 
 #tabs ul {
   margin: 0;
@@ -1013,14 +1009,74 @@ referencias
 card certificados 
 --------------------------------------------- 
 */
-.card-certificados .card  img{
- width: 100%;
-}
 .card{
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 5px;
+  border-radius: 15px;
   border: none;
+  wwidth: 100%;
+  height: auto;
 }
+.card  img{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card-title , .card-text{
+  font-size: 90%;
+}
+/* 
+---------------------------------------------
+overlay 
+--------------------------------------------- 
+*/
+.card-curso {
+   position: relative;
+   transition: all .5s ease-in;
+   background: #fff;
+   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius: 15px;
+}
+.card-curso img{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.image-curso {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: #071935;
+  border-radius: 15px;
+}
+.card-curso:hover .overlay {
+  opacity: 1;
+}
+
+
+.text-overlay a {
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 /* 
 ---------------------------------------------
 contact
