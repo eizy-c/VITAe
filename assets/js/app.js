@@ -38,9 +38,6 @@ if ($('.typed').length) {
 $('.owl-carousel').owlCarousel({
     center: true,
     margin:10,
-    autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
     loop:true,
 
     responsive:{
