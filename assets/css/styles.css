@@ -71,12 +71,6 @@ body.dark #referencia-icon-blue {
   filter: grayscale(100%);
 }
 
-body.dark #contact-us .contact-form {
-  background:#222b40;
-  border-radius: 5px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-}
-
 body.dark .skills .progress .skill {
   color: #8b9aab;
 }
@@ -144,3 +138,21 @@ body.dark .fa-moon {
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
+
+
+.print-cv {
+  position: fixed;
+  right: 0;
+  top: 22%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.fa-print {
+  background: #f5847b;
+}
+
