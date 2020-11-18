@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel='stylesheet' href='assets/unitegallery/css/unite-gallery.css' type='text/css' />
+
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     </head>
@@ -23,6 +25,10 @@
         <i class="fa fa-sun"></i>
         <i class="fa fa-moon"></i>
     </div>
+    <div class="print-cv" id="print-cv">
+        <a href="assets/docs/curriculum-V2.pdf" target="_blank"><i class="fa fa-print"></i></a> 
+    </div>
+
 
     <div id="js-preloader" class="js-preloader">
       <div class="preloader-inner">
@@ -46,6 +52,7 @@
                             <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
                             <li class="scroll-to-section"><a href="#features">Sobre mi</a></li>
                             <li class="scroll-to-section"><a href="#habilidades">Habilidades</a></li>
+                            <li class="scroll-to-section"><a href="#galeria">Galeria</a></li>
                             <li class="scroll-to-section"><a href="#referencias">Referencias</a></li>
                             <li class="scroll-to-section"><a href="#contact-us">Contacto</a></li> 
                             <li><li>
@@ -58,13 +65,14 @@
             </div>
         </div>
     </header>
+
     <div class="main-banner" id="top">
         <img src="assets/images/portada-bg.jpg" id="bg-image">
 
         <div class="image-overlay header-text">
             <div class="caption">
                 <h2><em>Y</em>oangel <em>E</em>izaga</h2>
-                <p><h3>Soy <em><span class="typed" data-typed-items="Desarrollador web, Fotografo, Diseñador, Musico"></span></em></h3></p>
+                <p><h3>Soy <em><span class="typed" data-typed-items="Programador, Fotografo, Illustrador"></span></em></h3></p>
                 <div class="main-button scroll-to-section">
                     <a href="#features">Sobre mi</a>
                 </div>
@@ -74,7 +82,7 @@
     <section class="section" id="features">
         <div class="container">
             <div class="row">
-                 <div class="col-lg-4">
+                 <div class="col-lg-4 col-md-4">
                     <div class="info-item">
                         <div class="image-thumb">
                             <img src="assets/images/perfil.jpg" alt="Yoangel Eizaga">
@@ -91,10 +99,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-8">
                     <div class="section-heading">
                         <h2 class="mb-2">Conoce un poco <em>sobre mi</em></h2>
-                        <p class="mb-1">Soy <b>Técnico Informático</b> con más de <b>2 años de experiencia</b> en desarrollo web.</p>
+                        <p class="mb-1">Soy <b>Técnico Informático</b> con más de <b>2 años de experiencia</b> en desarrollo web. También me gusta la <b>ilustración</b> y tomar <b>fotografiás</b></p> 
                         <p class="mb-1">Manejo una variedad de tecnologías y herramientas tales como <b>LARAVEL</b> y <b>VUE</b> las cuales ayudan con la creación de aplicaciones <b>web responsive</b>.</p>
                         
                        <p class="mb-1"> Soy una persona carismática con fácil adaptación con cualquier entorno social, aspiro aportar mis habilidades y conocimientos como también aprender de ustedes, poseo buena relación con herramientas de tele-trabajo como "<b>Zoom</b>, <b>Meet</b>, <b>Slack</b> y <b>Github</b>".</p>
@@ -179,14 +187,14 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2><em>Habilidades</em>/<em>certificaciones</em></h2></p>
+                        <h2 class="text-center"><em>Habilidades</em> / <em>certificaciones</em></h2></p>
                         </hr>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="skills section-bg">
+                    <div class="skills section-bg px-5">
                         <div class="row skills-content">
                             <div class="col-lg-6">
                                 <div class="progress">
@@ -207,6 +215,13 @@
                                         <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
+                                <div class="progress">
+                                    <span class="skill">Photoshop<i class="val">60%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="col-lg-6">
                                 <div class="progress">
@@ -224,7 +239,13 @@
                                 <div class="progress">
                                     <span class="skill">Wordpress<i class="val">65%</i></span>
                                     <div class="progress-bar-wrap">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div class="progress">
+                                    <span class="skill">Illustrator<i class="val">70%</i></span>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +253,7 @@
                     </div><!-- End Skills Section -->
                 </div>
 
-                <div class="col-lg-12 mt-5">
+                <div class="col-lg-12 mt-5 px-0">
                     <div class=" owl-carousel owl-theme owl-loaded">
 
                         <div class="mx-2">
@@ -337,6 +358,104 @@
         </div>
     </section>
 
+    <section class="section" id="galeria">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2 class="text-center"><em>Galeria</em></h2></p>
+                        </hr>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <div id="gallery" style="display:none; width: 100%">
+                        <img alt="Recibiendo titulo de TSU en Informatica"
+                             src="assets/images/galeria/min/TSU.jpg"
+                             data-image="assets/images/galeria/max/TSU.jpg"
+                             data-description="Recibiendo titulo de TSU en Informatica"
+                             style="display:none">
+                        <img alt="Dev 1"
+                             src="assets/images/galeria/min/dev-1.png"
+                             data-image="assets/images/galeria/max/dev-1.png"
+                             data-description="Dev 1"
+                             style="display:none">
+                        <img alt="Dev 2"
+                             src="assets/images/galeria/min/dev-2.png"
+                             data-image="assets/images/galeria/max/dev-2.png"
+                             data-description="Dev 2"
+                             style="display:none">
+                        <img alt="Dev 3"
+                             src="assets/images/galeria/min/dev-3.png"
+                             data-image="assets/images/galeria/max/dev-3.png"
+                             data-description="Dev 3"
+                             style="display:none">
+                        <img alt="Card github"
+                             src="assets/images/galeria/min/card-github.png"
+                             data-image="assets/images/galeria/max/card-github.png"
+                             data-description="Card github"
+                             style="display:none">
+                        <img alt="Logo Agropecuaria Asuaje C.A"
+                             src="assets/images/galeria/min/asuaje.jpg"
+                             data-image="assets/images/galeria/max/asuaje.jpg"
+                             data-description="Logo Agropecuaria Asuaje C.A"
+                             style="display:none">
+                        <img alt="Conecta con tu pueblito"
+                             src="assets/images/galeria/min/chivayork.png"
+                             data-image="assets/images/galeria/max/chivayork.png"
+                             data-description="Conecta con tu pueblito"
+                             style="display:none">
+                        <img alt="Logo YE"
+                             src="assets/images/galeria/min/logo-ye.png"
+                             data-image="assets/images/galeria/max/logo-ye.png"
+                             data-description="Logo YE"
+                             style="display:none">
+                        <img alt="Illustracion de iglesia de chivacoa"
+                             src="assets/images/galeria/min/illustracion-chivacoa.png"
+                             data-image="assets/images/galeria/max/illustracion-chivacoa.png"
+                             data-description="Illustracion de iglesia de chivacoa"
+                             style="display:none">
+                        <img alt="Post para inspirar a no derrochar tu tiempo"
+                            src="assets/images/galeria/min/aprovech-tu-tiempo.png"
+                             data-image="assets/images/galeria/max/aprovech-tu-tiempo.png"
+                             data-description="Post para inspirar a no derrochar tu tiempo"
+                             style="display:none">
+                        <img alt="Logo para un sistema de clases online llamado VISAB"
+                             src="assets/images/galeria/min/logo-visab.png"
+                             data-image="assets/images/galeria/max/logo-visab.png"
+                            data-description="Fotografia de chivacoa"
+                            style="display:none">
+                        <img alt="Logo para un sistema de clases online llamado VISAB"
+                             src="assets/images/galeria/min/chivacoa.jpg"
+                             data-image="assets/images/galeria/max/chivacoa.jpg"
+                            data-description="Fotografia de chivacoa"
+                            style="display:none">
+
+                        <img alt="Ilustracion que realize para memora mi titulo de TSU"
+                             src="assets/images/galeria/min/Logro-up.png"
+                             data-image="assets/images/galeria/max/Logro-up.png"
+                            data-description="Ilustracion que realize para memora mi titulo de TSU"
+                            style="display:none">
+
+                        <img alt="Noches en chivacoa"
+                             src="assets/images/galeria/min/Night-in-chivacoa.png"
+                             data-image="assets/images/galeria/max/Night-in-chivacoa.png"
+                            data-description="Noches en chivacoa"
+                            style="display:none">
+                        <img alt="Conejo bajo la luna ilustracion realizada para mi gran amor"
+                             src="assets/images/galeria/min/rabbit-and-moon.png"
+                             data-image="assets/images/galeria/max/rabbit-and-moon.png"
+                            data-description="Conejo bajo la luna ilustracion realizada para mi gran amor"
+                            style="display:none">
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
     <section class="section" id="referencias">
         <div class="container">
             <div class="row">
@@ -357,7 +476,9 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
+                
                 <!--<div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
@@ -382,13 +503,13 @@
     <section class="section" id="contact-us">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 px-0">
                 <div class="contact-form">
                     <div class="row">
-                        <div class="col-lg-6 col-md-6 col-xs-12 mb-2">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31418.15931000721!2d-68.91230128016292!3d10.158701585509634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80b34a5b2f2585%3A0x9898a3082635499!2sChivacoa%203202%2C%20Yaracuy!5e0!3m2!1ses!2sve!4v1603183743989!5m2!1ses!2sve" frameborder="0" style="border-radius: 5px; width: 100%; height: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31418.15931000721!2d-68.91230128016292!3d10.158701585509634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80b34a5b2f2585%3A0x9898a3082635499!2sChivacoa%203202%2C%20Yaracuy!5e0!3m2!1ses!2sve!4v1603183743989!5m2!1ses!2sve" frameborder="0" style=" width: 100%; height: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-xs-12 mb-2">
+                    <div class="col-lg-6 col-md-6 col-xs-12">
                         <form id="contact" action="" onclick = "event.preventDefault();">
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
@@ -463,9 +584,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/unitegallery/js/unitegallery.min.js"></script>
+    <script type='text/javascript' src='assets/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+
     <script src="assets/js/sendmail.js"></script>  
     <script src="assets/js/custom.js"></script>     
-    <script src="assets/js/app.js"></script> 
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript"> 
+            
+            var api;
+            $(document).ready(function(){
+                api = jQuery("#gallery").unitegallery({
+                    tiles_type:"nested"
+                });
+            });
+        
+    </script> 
 
   </body>
 </html>
