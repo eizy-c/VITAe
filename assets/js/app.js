@@ -38,7 +38,7 @@ if ($('.typed').length) {
 $('.owl-carousel').owlCarousel({
     center: true,
     margin:10,
-    autoplay:false,
+    autoplay:true,
     loop:true,
 
     responsive:{

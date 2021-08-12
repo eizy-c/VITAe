@@ -96,6 +96,12 @@ body.dark .overlay{
 body.dark .text-overlay a{
   color: #071935;
 }
+
+body.dark #contact-us .contact-form #contact {
+    background-color: #222b40;
+}
+
+
 /*-------------   switch mode dark ----------------*/
 .switch-bar {
   position: fixed;
